@@ -1,6 +1,6 @@
 <?php
 $us=$_POST['usuario'];
-$cl=$_POST['clave'];
+$cl=MD5($_POST['clave']);
 $nom=$_POST['nombre'];
 $fec=$_POST['fecha'];
 $em=$_POST['email'];
